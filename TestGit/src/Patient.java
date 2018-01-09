@@ -125,6 +125,7 @@ public class Patient {
 		ArrayList<Patient> patients = new ArrayList<Patient>(PatientList.getPatients());
 		return patients;
 	}
+	
 	public Patient search(int amka){
 		return (this.connector.search());
 	}
