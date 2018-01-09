@@ -128,5 +128,4 @@ public class Patient {
 	public Patient search(int amka){
 		return (this.connector.search());
 	}
-
 }
